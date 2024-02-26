@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """firts endpoint route to return api status"""
-from flask import flask
+from flask import Flask
 from os import environ
 from models import storage
 from app.v1.views import app_views
